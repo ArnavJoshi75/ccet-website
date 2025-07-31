@@ -24,6 +24,8 @@ const AcademicsMenu = () => {
                 'E-Cell', 
                 'NIRF', 
                 { name: 'FAQs', path: '/faq'},
+                { name: 'NIRF', path: '/academics/nirf' },  
+                'FAQs'
             ],
         },
         {
@@ -38,10 +40,10 @@ const AcademicsMenu = () => {
         {
             title: 'Overview',
             links: [
-                { name: 'Courses Offered', path: '/students-section/courses' },   // ✅ Now clickable
+                { name: 'Courses Offered', path: '/courses' },   // ✅ Now clickable
                 'Academic Calendar', 
-                { name: 'Academic Prospectus', path: '/prospectus' },  
-                'Affiliating University'
+                { name: 'Academic Prospectus', path: '/prospectus' }, 
+                { name: 'Affiliating University', path: 'https://puchd.ac.in/' }
             ],
         },
     ];

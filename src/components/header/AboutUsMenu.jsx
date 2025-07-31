@@ -5,12 +5,15 @@ const AboutUsMenu = () => {
     const sections = [
         {
             title: 'About',
-            links: ['History', 'Vision and Mission', 'Campus Map', 'How To Reach Us'],
+            links: ['History',
+                 'Vision and Mission',
+                  'Campus Map',
+                    <Link to="/contact" className="block w-full">How To Reach Us</Link>,],
         },
         {
             title: 'Administration',
             links: [
-                'Principal',
+                <Link to="/about/principal" className="block w-full">Principal</Link>,
                 'Officials at CCET',
                 <Link to="/about/academic-heads" className="block w-full">Academic Heads</Link>,  // ✅ Only this link is clickable
                 'Administrator',
